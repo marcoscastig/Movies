@@ -92,7 +92,7 @@ botonbusqueda.addEventListener('click', function(){
       </a>
     ` 
  document.getElementById('lista').appendChild(node)  
-node.addEventListener("click", (event) => {  //fucnion para agregar al canvas y al boton los datos
+node.addEventListener("click", (event) => {  //funcion para agregar al canvas y al boton los datos
     peliculaname = node.getAttribute("Pelicula-ID")
     canvas2.innerHTML =""
    for (let e = 0; e < array.length; e++) {
