@@ -29,13 +29,19 @@ main {
     height: fit-content;
 }
 
+.offcanvas-body{ 
+    overflow: visible; 
+}
+
 p {
     color: white;
     
 }
+
 .resaltado {
     font-weight: bold;
 }
+
 a {
     text-decoration: none;
 }
